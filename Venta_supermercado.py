@@ -1,4 +1,4 @@
-#La pagina del supermercado nos pregunta los valores que debemos introducir para generar un ticket final de compra con impuestos
+#La pagina del supermercado nos pregunta los valores que debemos introducir para generar un ticket final de compra con impuestos y descuento
 
 print("*** Bienvenido al sistema online de su supermercado ***")
 
@@ -23,5 +23,6 @@ total_con_impuestos = total_sin_impuestos + impuestos #Sumamos los impuestos al 
 #Imprimimos el valor final de compra
 
 print (f"Impuestos (21%): {impuestos}")
+
 
 print (f"El total sin impuestos asciende a: {total_sin_impuestos} \nSe añade un 21% de impuestos, precio final: {total_con_impuestos}")
